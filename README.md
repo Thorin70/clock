@@ -1,14 +1,38 @@
-# Run and deploy your AI Studio app
+#  Wall Clock
 
-This contains everything you need to run your app locally.
+![Wall Clock Screenshot](screenshot.png)
 
-## Run Locally
+A modern, responsive analog clock implementation built with React and TypeScript. The clock features a sleek 3D design with realistic shadows and modern UI elements.
 
-**Prerequisites:**  Node.js
+## Features
 
+- Real-time analog clock display
+- Smooth hand movements for hours, minutes, and seconds
+- Elegant design with shadows and depth effects
+- Accessible UI with ARIA labels
+- Responsive design
+
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+
+## Getting Started
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+
+2. Run development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Build for production:
+   ```bash
+   npm run build
+   ```
+
