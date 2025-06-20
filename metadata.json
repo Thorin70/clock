@@ -1,0 +1,5 @@
+{
+  "name": "3D Wall Clock",
+  "description": "A visually appealing 3D wall clock that displays the current time with animated hands, built with React and Tailwind CSS.",
+  "requestFramePermissions": []
+}
